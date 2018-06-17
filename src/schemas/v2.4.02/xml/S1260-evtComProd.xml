@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtComProd/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtComProd/v02_04_02 ../xsd/evtComProd.xsd ">
+  <evtComProd Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <indApuracao />
+      <perApur />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoComProd>
+      <ideEstabel>
+        <nrInscEstabRural />
+        <tpComerc>
+          <indComerc />
+          <vrTotCom />
+          <ideAdquir>
+            <tpInsc />
+            <nrInsc />
+            <vrComerc />
+            <nfs>
+              <serie />
+              <nrDocto />
+              <dtEmisNF />
+              <vlrBruto />
+              <vrCPDescPR />
+              <vrRatDescPR />
+              <vrSenarDesc />
+            </nfs>
+          </ideAdquir>
+          <infoProcJud>
+            <tpProc />
+            <nrProc />
+            <codSusp />
+            <vrCPSusp />
+            <vrRatSusp />
+            <vrSenarSusp />
+          </infoProcJud>
+        </tpComerc>
+      </ideEstabel>
+    </infoComProd>
+  </evtComProd>
+</eSocial>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabOperPort/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabOperPort/v02_04_02 ../xsd/evtTabOperPort.xsd ">
+  <evtTabOperPort Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoOperPortuario>
+      <inclusao>
+        <ideOperPortuario>
+          <cnpjOpPortuario />
+          <iniValid />
+          <fimValid />
+        </ideOperPortuario>
+        <dadosOperPortuario>
+          <aliqRat />
+          <fap />
+          <aliqRatAjust />
+        </dadosOperPortuario>
+      </inclusao>
+      <alteracao>
+        <ideOperPortuario>
+          <cnpjOpPortuario />
+          <iniValid />
+          <fimValid />
+        </ideOperPortuario>
+        <dadosOperPortuario>
+          <aliqRat />
+          <fap />
+          <aliqRatAjust />
+        </dadosOperPortuario>
+        <novaValidade>
+          <iniValid />
+          <fimValid />
+        </novaValidade>
+      </alteracao>
+      <exclusao>
+        <ideOperPortuario>
+          <cnpjOpPortuario />
+          <iniValid />
+          <fimValid />
+        </ideOperPortuario>
+      </exclusao>
+    </infoOperPortuario>
+  </evtTabOperPort>
+</eSocial>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtAltContratual/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtAltContratual/v02_04_02 ../xsd/evtAltContratual.xsd ">
+  <evtAltContratual Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <matricula />
+    </ideVinculo>
+    <altContratual>
+      <dtAlteracao />
+      <dtEf />
+      <dscAlt />
+      <vinculo>
+        <tpRegPrev />
+      </vinculo>
+      <infoRegimeTrab>
+        <infoCeletista>
+          <tpRegJor />
+          <natAtividade />
+          <dtBase />
+          <cnpjSindCategProf />
+          <trabTemp>
+            <justProrr />
+          </trabTemp>
+          <aprend>
+            <tpInsc />
+            <nrInsc />
+          </aprend>
+        </infoCeletista>
+        <infoEstatutario>
+          <tpPlanRP />
+        </infoEstatutario>
+      </infoRegimeTrab>
+      <infoContrato>
+        <codCargo />
+        <codFuncao />
+        <codCateg />
+        <codCarreira />
+        <dtIngrCarr />
+        <remuneracao>
+          <vrSalFx />
+          <undSalFixo />
+          <dscSalVar />
+        </remuneracao>
+        <duracao>
+          <tpContr />
+          <dtTerm />
+        </duracao>
+        <localTrabalho>
+          <localTrabGeral>
+            <tpInsc />
+            <nrInsc />
+            <descComp />
+          </localTrabGeral>
+          <localTrabDom>
+            <tpLograd />
+            <dscLograd />
+            <nrLograd />
+            <complemento />
+            <bairro />
+            <cep />
+            <codMunic />
+            <uf />
+          </localTrabDom>
+        </localTrabalho>
+        <horContratual>
+          <qtdHrsSem />
+          <tpJornada />
+          <dscTpJorn />
+          <tmpParc />
+          <horario>
+            <dia />
+            <codHorContrat />
+          </horario>
+        </horContratual>
+        <filiacaoSindical>
+          <cnpjSindTrab />
+        </filiacaoSindical>
+        <alvaraJudicial>
+          <nrProcJud />
+        </alvaraJudicial>
+        <observacoes>
+          <observacao />
+        </observacoes>
+        <servPubl>
+          <mtvAlter />
+        </servPubl>
+      </infoContrato>
+    </altContratual>
+  </evtAltContratual>
+</eSocial>

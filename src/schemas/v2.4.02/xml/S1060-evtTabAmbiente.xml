@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabAmbiente/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabAmbiente/v02_04_02 ../xsd/evtTabAmbiente.xsd ">
+  <evtTabAmbiente Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoAmbiente>
+      <inclusao>
+        <ideAmbiente>
+          <codAmb />
+          <iniValid />
+          <fimValid />
+        </ideAmbiente>
+        <dadosAmbiente>
+          <dscAmb />
+          <localAmb />
+          <tpInsc />
+          <nrInsc />
+          <fatorRisco>
+            <codFatRis />
+          </fatorRisco>
+        </dadosAmbiente>
+      </inclusao>
+      <alteracao>
+        <ideAmbiente>
+          <codAmb />
+          <iniValid />
+          <fimValid />
+        </ideAmbiente>
+        <dadosAmbiente>
+          <dscAmb />
+          <localAmb />
+          <tpInsc />
+          <nrInsc />
+          <fatorRisco>
+            <codFatRis />
+          </fatorRisco>
+        </dadosAmbiente>
+        <novaValidade>
+          <iniValid />
+          <fimValid />
+        </novaValidade>
+      </alteracao>
+      <exclusao>
+        <ideAmbiente>
+          <codAmb />
+          <iniValid />
+          <fimValid />
+        </ideAmbiente>
+      </exclusao>
+    </infoAmbiente>
+  </evtTabAmbiente>
+</eSocial>

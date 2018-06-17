@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabEstab/v02_04_02" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabEstab/v02_04_02 ../xsd/evtTabEstab.xsd ">
+  <evtTabEstab Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoEstab>
+      <inclusao>
+        <ideEstab>
+          <tpInsc />
+          <nrInsc />
+          <iniValid />
+          <fimValid />
+        </ideEstab>
+        <dadosEstab>
+          <cnaePrep />
+          <aliqGilrat>
+            <aliqRat />
+            <fap />
+            <procAdmJudRat>
+              <tpProc />
+              <nrProc />
+              <codSusp />
+            </procAdmJudRat>
+            <procAdmJudFap>
+              <tpProc />
+              <nrProc />
+              <codSusp />
+            </procAdmJudFap>
+          </aliqGilrat>
+          <infoCaepf>
+            <tpCaepf />
+          </infoCaepf>
+          <infoObra>
+            <indSubstPatrObra />
+          </infoObra>
+          <infoTrab>
+            <regPt />
+            <infoApr>
+              <contApr />
+              <nrProcJud />
+              <contEntEd />
+              <infoEntEduc>
+                <nrInsc />
+              </infoEntEduc>
+            </infoApr>
+            <infoPCD>
+              <contPCD />
+              <nrProcJud />
+            </infoPCD>
+          </infoTrab>
+        </dadosEstab>
+      </inclusao>
+
+      <alteracao>
+        <ideEstab>
+          <tpInsc />
+          <nrInsc />
+          <iniValid />
+          <fimValid />
+        </ideEstab>
+        <dadosEstab>
+          <cnaePrep />
+          <aliqGilrat>
+            <aliqRat />
+            <fap />
+            <aliqRatAjust />
+            <procAdmJudRat>
+              <tpProc />
+              <nrProc />
+              <codSusp />
+            </procAdmJudRat>
+            <procAdmJudFap>
+              <tpProc />
+              <nrProc />
+              <codSusp />
+            </procAdmJudFap>
+          </aliqGilrat>
+          <infoCaepf>
+            <tpCaepf />
+          </infoCaepf>
+          <infoObra>
+            <indSubstPatrObra />
+          </infoObra>
+          <infoTrab>
+            <regPt />
+            <infoApr>
+              <contApr />
+              <nrProcJud />
+              <contEntEd />
+              <infoEntEduc>
+                <nrInsc />
+              </infoEntEduc>
+            </infoApr>
+            <infoPCD>
+              <contPCD />
+              <nrProcJud />
+            </infoPCD>
+          </infoTrab>
+        </dadosEstab>
+        <novaValidade>
+          <iniValid />
+          <fimValid />
+        </novaValidade>
+      </alteracao>
+      <exclusao>
+        <ideEstab>
+          <tpInsc />
+          <nrInsc />
+          <iniValid />
+          <fimValid />
+        </ideEstab>
+      </exclusao>
+    </infoEstab>
+  </evtTabEstab>
+</eSocial>

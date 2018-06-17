@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtBenPrRP/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtBenPrRP/v02_04_02 ../xsd/evtBenPrRP.xsd ">
+  <evtBenPrRP Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <indApuracao />
+      <perApur />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideBenef>
+      <cpfBenef />
+    </ideBenef>
+    <dmDev>
+      <tpBenef />
+      <nrBenefic />
+      <ideDmDev />
+      <itens>
+        <codRubr />
+        <ideTabRubr />
+        <vrRubr />
+      </itens>
+    </dmDev>
+  </evtBenPrRP>
+</eSocial>
