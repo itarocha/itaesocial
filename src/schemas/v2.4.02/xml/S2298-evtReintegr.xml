@@ -3,6 +3,7 @@
   <evtReintegr Id="idvalue0">
     <ideEvento>
       <indRetif />
+      <nrRecibo />
       <tpAmb />
       <procEmi />
       <verProc />
@@ -18,10 +19,11 @@
     </ideVinculo>
     <infoReintegr>
       <tpReint />
+      <nrProcJud />
+      <nrLeiAnistia />
       <dtEfetRetorno />
       <dtEfeito />
       <indPagtoJuizo />
     </infoReintegr>
   </evtReintegr>
-  <Signature/>
 </eSocial>

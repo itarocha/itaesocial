@@ -2,6 +2,7 @@
 <eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtBasesTrab/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtBasesTrab/v02_04_02 ../xsd/evtBasesTrab.xsd ">
   <evtBasesTrab Id="idvalue0">
     <ideEvento>
+      <nrRecArqBase />
       <indApuracao />
       <perApur />
     </ideEvento>
@@ -12,6 +13,10 @@
     <ideTrabalhador>
       <cpfTrab />
     </ideTrabalhador>
+    <procJudTrab>
+      <nrProcJud />
+      <codSusp />
+    </procJudTrab>
     <infoCpCalc>
       <tpCR />
       <vrCpSeg />
@@ -23,10 +28,21 @@
         <nrInsc />
         <codLotacao />
         <infoCategIncid>
+          <matricula />
           <codCateg />
+          <indSimples />
+          <infoBaseCS>
+            <ind13 />
+            <tpValor />
+            <valor />
+          </infoBaseCS>
+          <calcTerc>
+            <tpCR />
+            <vrCsSegTerc />
+            <vrDescTerc />
+          </calcTerc>
         </infoCategIncid>
       </ideEstabLot>
     </infoCp>
   </evtBasesTrab>
-  <Signature/>
 </eSocial>

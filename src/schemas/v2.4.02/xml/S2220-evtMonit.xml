@@ -3,6 +3,7 @@
   <evtMonit Id="idvalue0">
     <ideEvento>
       <indRetif />
+      <nrRecibo />
       <tpAmb />
       <procEmi />
       <verProc />
@@ -13,13 +14,32 @@
     </ideEmpregador>
     <ideVinculo>
       <cpfTrab />
+      <nisTrab />
+      <matricula />
     </ideVinculo>
     <aso>
       <dtAso />
       <tpAso />
       <resAso />
+      <exame>
+        <dtExm />
+        <procRealizado />
+        <obsProc />
+        <interprExm />
+        <ordExame />
+        <dtIniMonit />
+        <dtFimMonit />
+        <indResult />
+        <respMonit>
+          <nisResp />
+          <nrConsClasse />
+          <ufConsClasse />
+        </respMonit>
+      </exame>
       <ideServSaude>
+        <codCNES />
         <frmCtt />
+        <email />
         <medico>
           <nmMed />
           <crm>
@@ -30,5 +50,4 @@
       </ideServSaude>
     </aso>
   </evtMonit>
-  <Signature/>
 </eSocial>

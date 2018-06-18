@@ -2,6 +2,7 @@
 <eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtIrrfBenef/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtIrrfBenef/v02_04_02 ../xsd/evtIrrfBenef.xsd ">
   <evtIrrfBenef Id="idvalue0">
     <ideEvento>
+      <nrRecArqBase />
       <perApur />
     </ideEvento>
     <ideEmpregador>
@@ -15,12 +16,31 @@
       <vrDedDep />
     </infoDep>
     <infoIrrf>
+      <codCateg />
       <indResBr />
       <basesIrrf>
         <tpValor />
         <valor />
       </basesIrrf>
+      <irrf>
+        <tpCR />
+        <vrIrrfDesc />
+      </irrf>
+      <idePgtoExt>
+        <idePais>
+          <codPais />
+          <indNIF />
+          <nifBenef />
+        </idePais>
+        <endExt>
+          <dscLograd />
+          <nrLograd />
+          <complem />
+          <bairro />
+          <nmCid />
+          <codPostal />
+        </endExt>
+      </idePgtoExt>
     </infoIrrf>
   </evtIrrfBenef>
-  <Signature/>
 </eSocial>

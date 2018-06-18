@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtCAT/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtCAT/v02_04_02 ../xsd/evtCAT.xsd ">
+  <evtCAT Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideRegistrador>
+      <tpRegistrador />
+      <tpInsc />
+      <nrInsc />
+    </ideRegistrador>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideTrabalhador>
+      <cpfTrab />
+      <nisTrab />
+    </ideTrabalhador>
+    <cat>
+      <dtAcid />
+      <tpAcid />
+      <hrAcid />
+      <hrsTrabAntesAcid />
+      <tpCat />
+      <indCatObito />
+      <indComunPolicia />
+      <codSitGeradora />
+      <iniciatCAT />
+      <observacao />
+      <localAcidente>
+        <tpLocal />
+        <dscLocal />
+        <dscLograd />
+        <nrLograd />
+        <codMunic />
+        <uf />
+        <cnpjLocalAcid />
+        <pais />
+        <codPostal />
+      </localAcidente>
+      <parteAtingida>
+        <codParteAting />
+        <lateralidade />
+      </parteAtingida>
+      <agenteCausador>
+        <codAgntCausador />
+      </agenteCausador>
+      <atestado>
+        <codCNES />
+        <dtAtendimento />
+        <hrAtendimento />
+        <indInternacao />
+        <durTrat />
+        <indAfast />
+        <dscLesao />
+        <dscCompLesao />
+        <diagProvavel />
+        <codCID />
+        <observacao />
+        <emitente>
+          <nmEmit />
+          <ideOC />
+          <nrOc />
+          <ufOC />
+        </emitente>
+      </atestado>
+      <catOrigem>
+        <dtCatOrig />
+        <nrCatOrig />
+      </catOrigem>
+    </cat>
+  </evtCAT>
+  <Signature/>
+</eSocial>

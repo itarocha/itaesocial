@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTSVAltContr/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTSVAltContr/v02_04_02 ../xsd/evtTSVAltContr.xsd ">
+  <evtTSVAltContr Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideTrabSemVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <codCateg />
+    </ideTrabSemVinculo>
+    <infoTSVAlteracao>
+      <dtAlteracao />
+      <natAtividade />
+      <infoComplementares>
+        <cargoFuncao> 
+          <codCargo />
+          <codFuncao />
+        </cargoFuncao> 
+        <remuneracao>
+          <vrSalFx />
+          <undSalFixo />
+          <dscSalVar />
+        </remuneracao>
+        <infoEstagiario>
+          <natEstagio />
+          <nivEstagio />
+          <areaAtuacao />
+          <nrApol />
+          <vlrBolsa />
+          <dtPrevTerm />
+          <instEnsino>
+            <cnpjInstEnsino />
+            <nmRazao />
+            <dscLograd />
+            <nrLograd />
+            <bairro />
+            <cep />
+            <codMunic />
+            <uf />
+          </instEnsino>
+          <ageIntegracao>
+            <cnpjAgntInteg />
+            <nmRazao />
+            <dscLograd />
+            <nrLograd />
+            <bairro />
+            <cep />
+            <codMunic />
+            <uf />
+          </ageIntegracao>
+          <supervisorEstagio>  
+            <cpfSupervisor />
+            <nmSuperv />
+          </supervisorEstagio>  
+        </infoEstagiario>
+      </infoComplementares>
+    </infoTSVAlteracao>
+  </evtTSVAltContr>
+</eSocial>

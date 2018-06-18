@@ -3,6 +3,7 @@
   <evtAvPrevio Id="idvalue0">
     <ideEvento>
       <indRetif />
+      <nrRecibo />
       <tpAmb />
       <procEmi />
       <verProc />
@@ -21,8 +22,13 @@
         <dtAvPrv />
         <dtPrevDeslig />
         <tpAvPrevio />
+        <observacao />
       </detAvPrevio>
+      <cancAvPrevio>
+        <dtCancAvPrv />
+        <observacao />
+        <mtvCancAvPrevio />
+      </cancAvPrevio>
     </infoAvPrevio>
   </evtAvPrevio>
-  <Signature/>
 </eSocial>

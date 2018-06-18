@@ -3,6 +3,7 @@
   <evtCdBenPrRP Id="idvalue0">
     <ideEvento>
       <indRetif />
+      <nrRecibo />
       <tpAmb />
       <procEmi />
       <verProc />
@@ -17,24 +18,64 @@
       <dadosBenef>
         <dadosNasc>
           <dtNascto />
+          <codMunic />
+          <uf />
           <paisNascto />
           <paisNac />
+          <nmMae />
+          <nmPai />
         </dadosNasc>
         <endereco>
           <brasil>
             <tpLograd />
             <dscLograd />
             <nrLograd />
+            <complemento />
+            <bairro />
             <cep />
             <codMunic />
-            <uf></uf>
+            <uf />
           </brasil>
+          <exterior>
+            <paisResid />
+            <dscLograd />
+            <nrLograd />
+            <complemento />
+            <bairro />
+            <nmCid />
+            <codPostal />
+          </exterior>
         </endereco>
       </dadosBenef>
     </ideBenef>
     <infoBeneficio>
       <tpPlanRP />
+      <iniBeneficio>
+        <tpBenef />
+        <nrBenefic />
+        <dtIniBenef />
+        <vrBenef />
+        <infoPenMorte>
+          <idQuota />
+          <cpfInst />
+        </infoPenMorte>
+      </iniBeneficio>
+      <altBeneficio>
+        <tpBenef />
+        <nrBenefic />
+        <dtIniBenef />
+        <vrBenef />
+        <infoPenMorte>
+          <idQuota />
+          <cpfInst />
+        </infoPenMorte>
+      </altBeneficio>
+      <fimBeneficio>
+        <tpBenef />
+        <nrBenefic />
+        <dtFimBenef />
+        <mtvFim />
+      </fimBeneficio>
     </infoBeneficio>
   </evtCdBenPrRP>
-  <Signature/>
 </eSocial>

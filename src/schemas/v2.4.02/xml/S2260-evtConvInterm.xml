@@ -3,6 +3,7 @@
   <evtConvInterm Id="idvalue0">
     <ideEvento>
       <indRetif />
+      <nrRecibo />
       <tpAmb />
       <procEmi />
       <verProc />
@@ -21,11 +22,25 @@
       <dtInicio />
       <dtFim />
       <dtPrevPgto />
-      <jornada/>
+      <jornada>
+        <codHorContrat />
+        <dscJornada />
+      </jornada>
       <localTrab>
-        <indLocal />
+        <indLocal>
+          <indLocal />
+        </indLocal>
+        <localTrabInterm>
+          <tpLograd />
+          <dscLograd />
+          <nrLograd />
+          <complem />
+          <bairro />
+          <cep />
+          <codMunic />
+          <uf />
+        </localTrabInterm>
       </localTrab>
     </infoConvInterm>
   </evtConvInterm>
-  <Signature/>
 </eSocial>

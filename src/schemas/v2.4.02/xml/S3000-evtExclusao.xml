@@ -13,7 +13,14 @@
     <infoExclusao>
       <tpEvento />
       <nrRecEvt />
+      <ideTrabalhador>
+        <cpfTrab />
+        <nisTrab />
+      </ideTrabalhador>
+      <ideFolhaPagto>
+        <indApuracao />
+        <perApur />
+      </ideFolhaPagto>
     </infoExclusao>
   </evtExclusao>
-  <Signature/>
 </eSocial>

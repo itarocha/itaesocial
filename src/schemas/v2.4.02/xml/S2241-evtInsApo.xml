@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtInsApo/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtInsApo/v02_04_02 ../xsd/evtInsApo.xsd ">
+  <evtInsApo Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc> />
+      <nrInsc />
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <matricula />
+    </ideVinculo>
+    <insalPeric>
+      <iniInsalPeric>
+        <dtIniCondicao />
+        <infoAmb>
+          <codAmb />
+          <fatRisco>
+            <codFatRis />
+          </fatRisco>
+        </infoAmb>
+      </iniInsalPeric>
+      <altInsalPeric>
+        <dtAltCondicao />
+        <infoamb>
+          <codAmb />
+          <fatRisco>
+            <codFatRis />
+          </fatRisco>
+        </infoamb>
+      </altInsalPeric>
+      <fimInsalPeric>
+        <dtFimCondicao />
+        <infoAmb>
+          <codAmb />
+        </infoAmb>
+      </fimInsalPeric>
+    </insalPeric>
+    <aposentEsp>
+      <iniAposentEsp>
+        <dtIniCondicao /> 
+        <infoAmb> 
+          <codAmb />
+          <fatRisco>
+            <codFatRis />
+          </fatRisco>
+        </infoAmb> 
+      </iniAposentEsp>
+      <altAposentEsp> 
+        <dtAltCondicao />
+        <infoamb>
+          <codAmb />
+          <fatRisco>
+            <codFatRis />
+          </fatRisco>
+        </infoamb>
+      </altAposentEsp> 
+      <fimAposentEsp>
+        <dtFimCondicao />
+        <infoAmb>
+          <codAmb />
+        </infoAmb>
+      </fimAposentEsp>
+    </aposentEsp>
+  </evtInsApo>
+  <Signature/>
+</eSocial>

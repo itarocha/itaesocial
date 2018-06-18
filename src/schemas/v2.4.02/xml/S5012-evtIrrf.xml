@@ -9,7 +9,12 @@
       <nrInsc />
     </ideEmpregador>
     <infoIRRF>
+      <nrRecArqBase />
       <indExistInfo />
+      <infoCRContrib>
+        <tpCR />
+        <vrCR />
+      </infoCRContrib>
     </infoIRRF>
   </evtIrrf>
   <Signature/>
