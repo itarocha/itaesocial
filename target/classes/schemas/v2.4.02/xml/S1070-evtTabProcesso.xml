@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabProcesso/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabProcesso/v02_04_02 ../xsd/evtTabProcesso.xsd ">
+  <evtTabProcesso Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoProcesso>
+      <inclusao>
+        <ideProcesso>
+          <tpProc />
+          <nrProc />
+          <iniValid />
+          <fimValid />
+        </ideProcesso>
+        <dadosProc>
+          <indAutoria />
+          <indMatProc />
+          <observacao />
+          <dadosProcJud>
+            <ufVara />
+            <codMunic />
+            <idVara />
+          </dadosProcJud>
+          <infoSusp>
+            <codSusp />
+            <indSusp />
+            <dtDecisao />
+            <indDeposito />
+          </infoSusp>
+        </dadosProc>
+      </inclusao>
+      <alteracao>
+        <ideProcesso>
+          <tpProc />
+          <nrProc />
+          <iniValid />
+          <fimValid />
+        </ideProcesso>
+        <dadosProc>
+          <indAutoria />
+          <indMatProc />
+          <observacao />
+          <dadosProcJud>
+            <ufVara />
+            <codMunic />
+            <idVara />
+          </dadosProcJud>
+          <infoSusp>
+            <codSusp />
+            <indSusp />
+            <dtDecisao />
+            <indDeposito />
+          </infoSusp>
+        </dadosProc>
+        <novaValidade>
+          <iniValid />
+          <fimValid />
+        </novaValidade>
+      </alteracao>
+      <exclusao>
+        <ideProcesso>
+          <tpProc />
+          <nrProc />
+          <iniValid />
+          <fimValid />
+        </ideProcesso>
+      </exclusao>      
+    </infoProcesso>
+  </evtTabProcesso>
+</eSocial>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtRmnRPPS/v02_04_02" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtRmnRPPS/v02_04_02 ../xsd/evtRmnRPPS.xsd ">
+  <evtRmnRPPS Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <indApuracao />
+      <perApur />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideTrabalhador>
+      <cpfTrab />
+      <nisTrab />
+      <qtdDepFP />
+      <procJudTrab>
+        <tpTrib />
+        <nrProcJud />
+        <codSusp />
+      </procJudTrab>
+    </ideTrabalhador>
+    <dmDev>
+      <ideDmDev />
+      <infoPerApur>
+        <ideEstab>
+          <tpInsc />
+          <nrInsc />
+          <remunPerApur>
+            <matricula />
+            <codCateg />
+            <itensRemun>
+              <codRubr />
+              <ideTabRubr />
+              <qtdRubr />
+              <fatorRubr />
+              <vrUnit />
+              <vrRubr />
+            </itensRemun>
+            <infoSaudeColet>
+              <detOper>
+                <cnpjOper />
+                <regANS />
+                <vrPgTit />
+                <detPlano>
+                  <tpDep />
+                  <cpfDep />
+                  <nmDep />
+                  <dtNascto />
+                  <vlrPgDep />
+                </detPlano>
+              </detOper>
+            </infoSaudeColet>
+          </remunPerApur>
+        </ideEstab>
+      </infoPerApur>
+      <infoPerAnt>
+        <ideADC>
+          <dtLei />
+          <nrLei />
+          <dtEf />
+          <idePeriodo>
+            <perRef />
+            <ideEstab>
+              <tpInsc />
+              <nrInsc />
+              <remunPerAnt>
+                <matricula />
+                <codCateg />
+                <itensRemun>
+                  <codRubr />
+                  <ideTabRubr />
+                  <qtdRubr />
+                  <fatorRubr />
+                  <vrUnit />
+                  <vrRubr />
+                </itensRemun>
+              </remunPerAnt>
+            </ideEstab>
+          </idePeriodo>
+        </ideADC>
+      </infoPerAnt>
+    </dmDev>
+  </evtRmnRPPS>
+</eSocial>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtExpRisco/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtExpRisco/v02_04_02 ../xsd/evtExpRisco.xsd ">
+  <evtExpRisco Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <matricula />
+    </ideVinculo>
+    <infoExpRisco>
+      <iniExpRisco>
+        <dtIniCondicao />
+        <infoAmb>
+          <codAmb />
+          <infoAtiv>
+            <dscAtivDes />
+          </infoAtiv>
+          <fatRisco>
+            <codFatRis />
+            <intConc />
+            <tecMedicao />
+            <epcEpi>
+              <utilizEPC />
+              <utilizEPI />
+              <epc>
+                <dscEpc />
+                <eficEpc />
+              </epc>
+              <epi>
+                <caEPI />
+                <eficEpi />
+                <medProtecao />
+                <condFuncto />
+                <przValid />
+                <periodicTroca />
+                <higienizacao />
+              </epi>
+            </epcEpi>
+          </fatRisco>
+        </infoAmb>
+      </iniExpRisco>
+      <fimExpRisco>
+        <dtFimCondicao />
+        <infoAmb>
+          <codAmb />
+        </infoAmb>
+      </fimExpRisco>
+      <respReg>
+        <dtIni />
+        <dtFim />
+        <nisResp />
+        <nrOc />
+        <ufOC />
+      </respReg>
+    </infoExpRisco>
+  </evtExpRisco>
+</eSocial>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtAfastTemp/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtAfastTemp/v02_04_02 ../xsd/evtAfastTemp.xsd ">
+  <evtAfastTemp Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <matricula />
+      <codCateg />
+    </ideVinculo>
+    <infoAfastamento>
+      <iniAfastamento>
+        <dtIniAfast />
+        <codMotAfast />
+        <infoMesmoMtv />
+        <tpAcidTransito />
+        <observacao />
+        <infoAtestado>
+          <codCID />
+          <qtdDiasAfast />
+          <emitente>
+            <nmEmit />
+            <ideOC />
+            <nrOc />
+            <ufOC />
+          </emitente>
+        </infoAtestado>
+        <infoCessao>
+          <cnpjCess />
+          <infOnus />
+        </infoCessao>
+        <infoMandSind>
+          <cnpjSind />
+          <infOnusRemun />
+        </infoMandSind>
+        <infoRetif>
+          <origRetif />
+          <tpProc />
+          <nrProc />
+        </infoRetif>
+      </iniAfastamento>
+      <fimAfastamento>
+        <dtTermAfast />
+      </fimAfastamento>
+    </infoAfastamento>
+  </evtAfastTemp>
+</eSocial>

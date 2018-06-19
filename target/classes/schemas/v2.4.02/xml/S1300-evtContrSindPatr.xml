@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtContrSindPatr/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtContrSindPatr/v02_04_02 ../xsd/evtContrSindPatr.xsd ">
+  <evtContrSindPatr Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <indApuracao />
+      <perApur />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <contribSind>
+      <cnpjSindic />
+      <tpContribSind />
+      <vlrContribSind />
+    </contribSind>
+  </evtContrSindPatr>
+</eSocial>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabLotacao/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabLotacao/v02_04_02 ../xsd/evtTabLotacao.xsd ">
+  <evtTabLotacao Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoLotacao>
+      <inclusao>
+        <ideLotacao>
+          <codLotacao />
+          <iniValid />
+          <fimValid />
+        </ideLotacao>
+        <dadosLotacao>
+          <tpLotacao />
+          <tpInsc />
+          <nrInsc />
+          <fpasLotacao>
+            <fpas />
+            <codTercs />
+            <codTercsSusp />
+            <infoProcJudTerceiros>
+              <procJudTerceiro>
+                <codTerc />
+                <nrProcJud />
+                <codSusp />
+              </procJudTerceiro>
+            </infoProcJudTerceiros>
+          </fpasLotacao>
+          <infoEmprParcial>
+            <tpInscContrat />
+            <nrInscContrat />
+            <tpInscProp />
+            <tpInscProp />
+            <nrInscProp />
+          </infoEmprParcial>
+        </dadosLotacao>
+      </inclusao>
+      <alteracao>
+        <ideLotacao>
+          <codLotacao />
+          <iniValid />
+          <fimValid />
+        </ideLotacao>
+        <dadosLotacao>
+          <tpLotacao />
+          <tpInsc />
+          <nrInsc />
+          <fpasLotacao>
+            <fpas />
+            <codTercs />
+            <codTercsSusp />
+            <infoProcJudTerceiros>
+              <procJudTerceiro>
+                <codTerc />
+                <nrProcJud />
+                <codSusp />
+              </procJudTerceiro>
+            </infoProcJudTerceiros>
+          </fpasLotacao>
+          <infoEmprParcial>
+            <tpInscContrat />
+            <nrInscContrat />
+            <tpInscProp />
+            <tpInscProp />
+            <nrInscProp />
+          </infoEmprParcial>
+        </dadosLotacao>
+      </alteracao>
+      <exclusao>
+        <codLotacao />
+        <iniValid />
+        </fimValid />
+      </exclusao>
+    </infoLotacao>
+  </evtTabLotacao>
+</eSocial>

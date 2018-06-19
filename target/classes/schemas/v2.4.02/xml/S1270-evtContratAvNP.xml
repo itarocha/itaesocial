@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtContratAvNP/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtContratAvNP/v02_04_02 ../xsd/evtContratAvNP.xsd ">
+  <evtContratAvNP Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <indApuracao />
+      <perApur />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <remunAvNP>
+      <tpInsc />
+      <nrInsc />
+      <codLotacao />
+      <vrBcCp00 />
+      <vrBcCp15 />
+      <vrBcCp20 />
+      <vrBcCp25 />
+      <vrBcCp13 />
+      <vrBcFgts />
+      <vrDescCP />
+    </remunAvNP>
+  </evtContratAvNP>
+</eSocial>

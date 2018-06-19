@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtPgtos/v02_04_02" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtPgtos/v02_04_02 ../xsd/evtPgtos.xsd ">
+  <evtPgtos Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <indApuracao />
+      <perApur />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideBenef>
+      <cpfBenef />
+      <deps>
+        <vrDedDep />
+      </deps>
+      <infoPgto>
+        <dtPgto />
+        <tpPgto />
+        <indResBr />
+        <detPgtoFl>
+          <perRef />
+          <ideDmDev />
+          <indPgtoTt />
+          <vrLiq />
+          <nrRecArq />
+          <retPgtoTot>
+            <codRubr />
+            <ideTabRubr />
+            <qtdRubr />
+            <fatorRubr />
+            <vrUnit />
+            <vrRubr />
+            <penAlim>
+              <cpfBenef />
+              <dtNasctoBenef />
+              <nmBenefic />
+              <vlrPensao />
+            </penAlim>
+          </retPgtoTot>
+          <infoPgtoParc>
+            <matricula />
+            <codRubr />
+            <ideTabRubr />
+            <qtdRubr />
+            <fatorRubr />
+            <vrUnit />
+            <vrRubr />
+          </infoPgtoParc>
+        </detPgtoFl>
+        <detPgtoBenPr>
+          <perRef />
+          <ideDmDev />
+          <indPgtoTt />
+          <vrLiq />
+          <retPgtoTot>
+            <codRubr />
+            <ideTabRubr />
+            <qtdRubr />
+            <fatorRubr />
+            <vrUnit />
+            <vrRubr />
+          </retPgtoTot>
+          <infoPgtoParc>
+            <codRubr />
+            <ideTabRubr />
+            <qtdRubr />
+            <fatorRubr />
+            <vrUnit />
+            <vrRubr />
+          </infoPgtoParc>
+        </detPgtoBenPr>
+
+        <detPgtoFer>
+          <codCateg />
+          <matricula />
+          <dtIniGoz />
+          <qtDias />
+          <vrLiq />
+          <detRubrFer>
+            <codRubr />
+            <ideTabRubr />
+            <qtdRubr />
+            <fatorRubr />
+            <vrUnit />
+            <vrRubr />
+            <penAlim>
+              <cpfBenef />
+              <dtNasctoBenef />
+              <nmBenefic />
+              <vlrPensao />
+            </penAlim>
+          </detRubrFer>
+        </detPgtoFer>
+        <detPgtoAnt>
+          <codCateg />
+          <infoPgtoAnt>
+            <tpBcIRRF />
+            <vrBcIRRF />
+          </infoPgtoAnt>
+        </detPgtoAnt>
+        <idePgtoExt>
+          <idePais>
+            <codPais />
+            <indNIF />
+            <nifBenef />
+          </idePais>
+          <endExt>
+            <dscLograd />
+            <nrLograd />
+            <complem />
+            <bairro />
+            <nmCid />
+            <codPostal />
+          </endExt>
+        </idePgtoExt>
+      </infoPgto>
+    </ideBenef>
+  </evtPgtos>
+  <Signature/>
+</eSocial>

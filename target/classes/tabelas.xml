@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabelas>
+	<tabela master="true">
+		<master>TB_MASTER</master>
+		<detail>TB_FILHO_ALFA</detail>
+		<ligacoes>
+			<ligacao>
+				<key>CK1</key>
+				<ref>CR1</ref>
+			</ligacao>
+			<ligacao>
+				<key>CK2</key>
+				<ref>CR2</ref>
+			</ligacao>
+		</ligacoes>
+	</tabela>
+</tabelas>

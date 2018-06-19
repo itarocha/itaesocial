@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtCdBenPrRP/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtCdBenPrRP/v02_04_02 ../xsd/evtCdBenPrRP.xsd ">
+  <evtCdBenPrRP Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideBenef>
+      <cpfBenef />
+      <nmBenefic />
+      <dadosBenef>
+        <dadosNasc>
+          <dtNascto />
+          <codMunic />
+          <uf />
+          <paisNascto />
+          <paisNac />
+          <nmMae />
+          <nmPai />
+        </dadosNasc>
+        <endereco>
+          <brasil>
+            <tpLograd />
+            <dscLograd />
+            <nrLograd />
+            <complemento />
+            <bairro />
+            <cep />
+            <codMunic />
+            <uf />
+          </brasil>
+          <exterior>
+            <paisResid />
+            <dscLograd />
+            <nrLograd />
+            <complemento />
+            <bairro />
+            <nmCid />
+            <codPostal />
+          </exterior>
+        </endereco>
+      </dadosBenef>
+    </ideBenef>
+    <infoBeneficio>
+      <tpPlanRP />
+      <iniBeneficio>
+        <tpBenef />
+        <nrBenefic />
+        <dtIniBenef />
+        <vrBenef />
+        <infoPenMorte>
+          <idQuota />
+          <cpfInst />
+        </infoPenMorte>
+      </iniBeneficio>
+      <altBeneficio>
+        <tpBenef />
+        <nrBenefic />
+        <dtIniBenef />
+        <vrBenef />
+        <infoPenMorte>
+          <idQuota />
+          <cpfInst />
+        </infoPenMorte>
+      </altBeneficio>
+      <fimBeneficio>
+        <tpBenef />
+        <nrBenefic />
+        <dtFimBenef />
+        <mtvFim />
+      </fimBeneficio>
+    </infoBeneficio>
+  </evtCdBenPrRP>
+</eSocial>

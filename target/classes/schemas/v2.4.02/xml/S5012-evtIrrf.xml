@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtIrrf/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtIrrf/v02_04_02 ../xsd/evtIrrf.xsd ">
+  <evtIrrf Id="idvalue0">
+    <ideEvento>
+      <perApur />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoIRRF>
+      <nrRecArqBase />
+      <indExistInfo />
+      <infoCRContrib>
+        <tpCR />
+        <vrCR />
+      </infoCRContrib>
+    </infoIRRF>
+  </evtIrrf>
+  <Signature/>
+</eSocial>

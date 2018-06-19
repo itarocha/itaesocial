@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabHorTur/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabHorTur/v02_04_02 ../xsd/evtTabHorTur.xsd ">
+  <evtTabHorTur Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoHorContratual>
+      <inclusao>
+        <ideHorContratual>
+          <codHorContrat />
+          <iniValid />
+          <fimValid />
+        </ideHorContratual>
+        <dadosHorContratual>
+          <hrEntr />
+          <hrSaida />
+          <durJornada />
+          <perHorFlexivel />
+          <horarioIntervalo>
+            <tpInterv />
+            <durInterv />
+            <iniInterv />
+            <termInterv />
+          </horarioIntervalo>
+        </dadosHorContratual>
+      </inclusao>
+      <alteracao>
+        <ideHorContratual>
+          <codHorContrat />
+          <iniValid />
+          <fimValid />
+        </ideHorContratual>
+        <dadosHorContratual>
+          <hrEntr />
+          <hrSaida />
+          <durJornada />
+          <perHorFlexivel />
+          <horarioIntervalo>
+            <tpInterv />
+            <durInterv />
+            <iniInterv />
+            <termInterv />
+          </horarioIntervalo>
+        </dadosHorContratual>
+        <novaValidade>
+          <iniValid />
+          <fimValid />
+        </novaValidade>
+      </alteracao>
+      <exclusao>
+        <ideHorContratual>
+          <codHorContrat />
+          <iniValid />
+          <fimValid />
+        </ideHorContratual>
+      </exclusao>
+    </infoHorContratual>
+  </evtTabHorTur>
+</eSocial>

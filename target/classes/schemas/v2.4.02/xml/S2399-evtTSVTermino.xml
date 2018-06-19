@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTSVTermino/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTSVTermino/v02_04_02 ../xsd/evtTSVTermino.xsd ">
+  <evtTSVTermino Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideTrabSemVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <codCateg />
+    </ideTrabSemVinculo>
+    <infoTSVTermino>
+      <dtTerm />
+      <mtvDesligTSV />
+      <verbasResc>
+        <dmDev>
+          <ideDmDev />
+          <ideEstabLot>
+            <tpInsc />
+            <nrInsc />
+            <codLotacao />
+            <detVerbas>
+              <codRubr />
+              <ideTabRubr />
+              <qtdRubr />
+              <fatorRubr />
+              <vrUnit />
+              <vrRubr />
+            </detVerbas>
+            <infoSaudeColet>
+              <detOper>
+                <cnpjOper />
+                <regANS />
+                <vrPgTit />
+                <detPlano>
+                  <tpDep />
+                  <cpfDep />
+                  <nmDep />
+                  <dtNascto />
+                  <vlrPgDep />
+                </detPlano>
+              </detOper>
+            </infoSaudeColet>
+            <infoAgNocivo>
+              <grauExp />
+            </infoAgNocivo>
+            <infoSimples>
+              <indSimples />
+            </infoSimples>
+          </ideEstabLot>
+        </dmDev>
+        <procJudTrab>
+          <tpTrib />
+          <nrProcJud />
+          <codSusp />
+        </procJudTrab>
+        <infoMV>
+          <indMV />
+          <remunOutrEmpr>
+            <tpInsc />
+            <nrInsc />
+            <codCateg />
+            <vlrRemunOE />
+          </remunOutrEmpr>
+        </infoMV>
+      </verbasResc>
+      <quarentena>
+        <dtFimQuar />
+      </quarentena>
+    </infoTSVTermino>
+  </evtTSVTermino>
+</eSocial>

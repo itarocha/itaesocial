@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtDeslig/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtDeslig/v02_04_02 ../xsd/evtDeslig.xsd ">
+  <evtDeslig Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <matricula />
+    </ideVinculo>
+    <infoDeslig>
+      <mtvDeslig />
+      <dtDeslig />
+      <indPagtoAPI />
+      <pensAlim />
+      <indCumprParc />
+    </infoDeslig>
+  </evtDeslig>
+  <Signature/>
+</eSocial>

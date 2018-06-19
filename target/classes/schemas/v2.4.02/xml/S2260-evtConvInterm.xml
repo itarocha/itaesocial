@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtConvInterm/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtConvInterm/v02_04_02 ../xsd/evtConvInterm.xsd ">
+  <evtConvInterm Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <matricula />
+    </ideVinculo>
+    <infoConvInterm>
+      <codConv />
+      <dtInicio />
+      <dtFim />
+      <dtPrevPgto />
+      <jornada>
+        <codHorContrat />
+        <dscJornada />
+      </jornada>
+      <localTrab>
+        <indLocal>
+          <indLocal />
+        </indLocal>
+        <localTrabInterm>
+          <tpLograd />
+          <dscLograd />
+          <nrLograd />
+          <complem />
+          <bairro />
+          <cep />
+          <codMunic />
+          <uf />
+        </localTrabInterm>
+      </localTrab>
+    </infoConvInterm>
+  </evtConvInterm>
+</eSocial>

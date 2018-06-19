@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabFuncao/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabFuncao/v02_04_02 ../xsd/evtTabFuncao.xsd ">
+  <evtTabFuncao Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoFuncao>
+      <inclusao>
+        <ideFuncao>
+          <codFuncao />
+          <iniValid />
+          <fimValid />
+        </ideFuncao>
+        <dadosFuncao>
+          <dscFuncao />
+          <codCBO />
+        </dadosFuncao>
+      </inclusao>
+      <alteracao>
+        <ideFuncao>
+          <codFuncao />
+          <iniValid />
+          <fimValid />
+        </ideFuncao>
+        <dadosFuncao>
+          <dscFuncao />
+          <codCBO />
+        </dadosFuncao>
+        <novaValidade>
+          <iniValid />
+          <fimValid />
+        </novaValidade>
+      </alteracao>
+      <exclusao>
+        <ideFuncao>
+          <codFuncao />
+          <iniValid />
+          <fimValid />
+        </ideFuncao>
+      </exclusao>
+    </infoFuncao>
+  </evtTabFuncao>
+</eSocial>

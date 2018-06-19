@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtInfoEmpregador/v02_04_02" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtInfoEmpregador/v02_04_02 ../xsd/evtInfoEmpregador.xsd ">
+  <evtInfoEmpregador Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoEmpregador>
+      <inclusao>
+        <idePeriodo>
+          <iniValid />
+          <fimValid />
+        </idePeriodo>
+        <infoCadastro>
+          <nmRazao />
+          <classTrib />
+          <natJurid />
+          <indCoop />
+          <indConstr />
+          <indDesFolha />
+          <indOptRegEletron />
+          <indEntEd />
+          <indEtt />
+          <nrRegEtt />
+          <dadosIsencao>
+            <ideMinLei />
+            <nrCertif />
+            <dtEmisCertif />
+            <dtVencCertif />
+            <nrProtRenov />
+            <dtProtRenov />
+            <dtDou />
+            <pagDou />
+          </dadosIsencao>
+          <contato>
+            <nmCtt />
+            <cpfCtt />
+            <foneFixo />
+            <foneCel />
+            <email />
+          </contato>
+          <infoOP>
+            <nrSiafi />
+            <infoEFR>
+              <ideEFR />
+              <cnpjEFR />
+            </infoEFR>
+            <infoEnte>
+              <nmEnte />
+              <uf />
+              <codMunic />
+              <indRPPS />
+              <subteto />
+              <vrSubteto />
+            </infoEnte>
+          </infoOP>
+          <infoComplementares/>
+          <infoOrgInternacional>
+            <indAcordoIsenMulta />
+          </infoOrgInternacional>
+          <softwareHouse>
+            <cnpjSoftHouse />
+            <nmRazao />
+            <nmCont />
+            <telefone />
+            <email />
+          </softwareHouse>
+          <infoComplementares>
+            <situacaoPJ>
+              <indSitPJ />
+            </situacaoPJ>
+            <situacaoPF>
+              <indSitPF />
+            </situacaoPF>
+          </infoComplementares>
+        </infoCadastro>
+      </inclusao>
+      <alteracao>
+        <novaValidade>
+          <iniValid />
+          <fimValid />
+        </novaValidade>
+      </alteracao>
+      <exclusao>
+        <idePeriodo>
+          <iniValid />
+          <fimValid />
+        </idePeriodo>
+      </exclusao>
+    </infoEmpregador>
+  </evtInfoEmpregador>
+</eSocial>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTabCargo/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTabCargo/v02_04_02 ../xsd/evtTabCargo.xsd ">
+  <evtTabCargo Id="idvalue0">
+    <ideEvento>
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoCargo>
+      <inclusao>
+        <ideCargo>
+          <codCargo />
+          <iniValid />
+          <fimValid />
+        </ideCargo>
+        <dadosCargo>
+          <nmCargo />
+          <codCBO />
+          <cargoPublico>
+            <acumCargo />
+            <contagemEsp />
+            <dedicExcl />
+            <leiCargo>
+              <nrLei />
+              <dtLei />
+              <sitCargo />
+            </leiCargo>
+          </cargoPublico>
+        </dadosCargo>
+      </inclusao>
+      <alteracao>
+        <ideCargo>
+          <codCargo />
+          <iniValid />
+          <fimValid />
+        </ideCargo>
+        <dadosCargo>
+          <nmCargo />
+          <codCBO />
+          <cargoPublico>
+            <acumCargo />
+            <contagemEsp />
+            <dedicExcl />
+            <leiCargo>
+              <nrLei />
+              <dtLei />
+              <sitCargo />
+            </leiCargo>
+          </cargoPublico>
+        </dadosCargo>
+      </alteracao>
+      <exclusao>
+          <iniValid />
+          <fimValid />
+        <ideCargo>
+          <codCargo />
+          <iniValid />
+          <fimValid />
+        </ideCargo>
+      </exclusao>
+    </infoCargo>
+  </evtTabCargo>
+</eSocial>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtRemun/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtRemun/v02_04_02 ../xsd/evtRemun.xsd ">
+  <evtRemun Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <indApuracao />
+      <perApur />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideTrabalhador>
+      <cpfTrab />
+      <nisTrab />
+      <infoMV>
+        <indMV />
+        <remunOutrEmpr>
+          <tpInsc />
+          <nrInsc />
+          <codCateg />
+          <vlrRemunOE />
+        </remunOutrEmpr>
+      </infoMV>
+      <infoComplem>
+        <nmTrab />
+        <dtNascto />
+        <sucessaoVinc>
+          <cnpjEmpregAnt />
+          <matricAnt />
+          <dtAdm />
+          <observacao />
+        </sucessaoVinc>
+      </infoComplem>
+      <procJudTrab> 
+        <tpTrib />
+        <nrProcJud />
+        <codSusp />
+      </procJudTrab> 
+      <infoInterm>
+        <qtdDiasInterm />
+      </infoInterm>
+    </ideTrabalhador>
+    <dmDev>
+      <ideDmDev />
+      <codCateg />
+      <infoPerApur>
+        <ideEstabLot>
+          <tpInsc />
+          <nrInsc />
+          <codLotacao />
+          <qtdDiasAv />
+          <remunPerApur>
+            <matricula />
+            <indSimples />
+            <itensRemun>
+              <codRubr />
+              <ideTabRubr />
+              <qtdRubr />
+              <fatorRubr />
+              <vrUnit />
+              <vrRubr />
+            </itensRemun>
+            <infoSaudeColet>
+              <detOper>
+                <cnpjOper />
+                <regANS />
+                <vrPgTit />
+                <detPlano>
+                  <tpDep />
+                  <cpfDep />
+                  <nmDep />
+                  <dtNascto />
+                  <vlrPgDep />
+                </detPlano>
+              </detOper>
+            </infoSaudeColet>
+            <infoAgNocivo>
+              <grauExp />
+            </infoAgNocivo>
+            <infoTrabInterm> 
+              <codConv />
+            </infoTrabInterm> 
+          </remunPerApur>
+        </ideEstabLot>
+      </infoPerApur>
+      <infoPerAnt>
+        <ideADC>
+          <dtAcConv />
+          <tpAcConv />
+          <compAcConv />
+          <dtEfAcConv />
+          <dsc />
+          <remunSuc />
+          <idePeriodo>
+            <perRef />
+            <ideEstabLot>
+              <tpInsc />
+              <nrInsc />
+              <codLotacao />
+              <remunPerAnt>
+                <matricula />
+                <indSimples />
+                <itensRemun>
+                  <codRubr />  
+                  <ideTabRubr />
+                  <qtdRubr />
+                  <fatorRubr />
+                  <vrUnit />
+                  <vrRubr />
+                </itensRemun>
+                <infoAgNocivo>
+                  <grauExp />
+                </infoAgNocivo>
+                <infoTrabInterm>
+                  <codConv />
+                </infoTrabInterm>
+              </remunPerAnt>
+            </ideEstabLot>
+          </idePeriodo>
+        </ideADC>
+      </infoPerAnt>
+      <infoComplCont>
+        <codCBO />
+        <natAtividade />
+        <qtdDiasTrab />
+      </infoComplCont>
+    </dmDev>
+  </evtRemun>
+</eSocial>
