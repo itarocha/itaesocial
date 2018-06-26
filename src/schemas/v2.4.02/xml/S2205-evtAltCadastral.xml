@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtAltCadastral/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtAltCadastral/v02_04_02 ../xsd/evtAltCadastral.xsd ">
+  <evtAltCadastral Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideTrabalhador>
+      <cpfTrab />
+    </ideTrabalhador>
+    <alteracao>
+      <dtAlteracao />
+      <dadosTrabalhador>
+        <nisTrab />
+        <nmTrab />
+        <sexo />
+        <racaCor />
+        <estCiv />
+        <grauInstr />
+        <nmSoc />
+        <nascimento>
+          <dtNascto />
+          <codMunic />
+          <uf />
+          <paisNascto />
+          <paisNac />
+          <nmMae />
+          <nmPai />
+        </nascimento>
+        <documentos>
+          <CTPS>
+            <nrCtps />
+            <serieCtps />
+            <ufCtps />
+          </CTPS>
+          <RIC>
+            <nrRic />
+            <orgaoEmissor />
+            <dtExped />
+          </RIC>
+          <RG>
+            <nrRg />
+            <orgaoEmissor />
+            <dtExped />
+          </RG>
+          <RNE>
+            <nrRne />
+            <orgaoEmissor />
+            <dtExped />
+          </RNE>
+          <OC>
+            <nrOc />
+            <orgaoEmissor />
+            <dtExped />
+            <dtValid />
+          </OC>
+          <CNH>
+            <nrRegCnh />
+            <dtExped />
+            <ufCnh />
+            <dtValid />
+            <dtPriHab />
+            <categoriaCnh />
+          </CNH>
+        </documentos>
+        <endereco>
+          <brasil>
+            <tpLograd />
+            <dscLograd />
+            <nrLograd />
+            <complemento />
+            <bairro />
+            <cep />
+            <codMunic />
+            <uf />
+          </brasil>
+          <exterior>
+            <paisResid />
+            <dscLograd />
+            <nrLograd />
+            <complemento />
+            <bairro />
+            <nmCid />
+            <codPostal />
+          </exterior>
+        </endereco>
+        <trabEstrangeiro>
+          <dtChegada />
+          <classTrabEstrang />
+          <casadoBr />
+          <filhosBr />
+        </trabEstrangeiro>
+        <infoDeficiencia>
+          <defFisica />
+          <defVisual />
+          <defAuditiva />
+          <defMental />
+          <defIntelectual />
+          <reabReadap />
+          <infoCota />
+          <observacao />
+        </infoDeficiencia>
+        <dependente>
+          <tpDep />
+          <nmDep />
+          <dtNascto />
+          <cpfDep />
+          <depIRRF />
+          <depSF />
+          <incTrab />
+        </dependente>
+        <aposentadoria>
+          <trabAposent />
+        </aposentadoria>
+        <contato>
+          <fonePrinc />
+          <foneAlternat />
+          <emailPrinc />
+          <emailAlternat />
+        </contato>
+      </dadosTrabalhador>
+    </alteracao>
+  </evtAltCadastral>
+</eSocial>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtCS/v02_04_02" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtCS/v02_04_02 ../xsd/evtCS.xsd ">
+  <evtCS Id="idvalue0">
+    <ideEvento>
+      <indApuracao />
+      <perApur />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <infoCS>
+      <nrRecArqBase />
+      <indExistInfo />
+      <infoCPSeg>
+        <vrDescCP />
+        <vrCpSeg />
+      </infoCPSeg>
+      <infoContrib>
+        <classTrib />
+        <infoPJ>
+          <indCoop />
+          <indConstr />
+          <indSubstPatr />
+          <percRedContrib />
+          <infoAtConc>
+            <fatorMes />
+            <fator13 />
+          </infoAtConc>
+        </infoPJ>
+      </infoContrib>
+      <ideEstab>
+        <tpInsc />
+        <nrInsc />
+        <infoEstab>
+          <cnaePrep />
+          <aliqRat />
+          <fap />
+          <aliqRatAjust />
+          <infoComplObra>
+            <indSubstPatrObra />
+          </infoComplObra>
+        </infoEstab>
+        <ideLotacao>
+          <codLotacao />
+          <fpas />
+          <codTercs />
+          <codTercsSusp />
+          <infoTercSusp>
+            <codTerc />
+          </infoTercSusp>
+          <infoEmprParcial>
+            <tpInscContrat />
+            <nrInscContrat />
+            <tpInscProp />
+            <nrInscProp />
+          </infoEmprParcial>
+          <dadosOpPort>
+            <cnpjOpPortuario />
+            <aliqRat />
+            <fap />
+            <aliqRatAjust />
+          </dadosOpPort>
+          <basesRemun>
+            <indIncid />
+            <codCateg />
+            <basesCp>
+              <vrBcCp00 />
+              <vrBcCp15 />
+              <vrBcCp20 />
+              <vrBcCp25 />
+              <vrSuspBcCp00 />
+              <vrSuspBcCp15 />
+              <vrSuspBcCp20 />
+              <vrSuspBcCp25 />
+              <vrDescSest />
+              <vrCalcSest />
+              <vrDescSenat />
+              <vrCalcSenat />
+              <vrSalFam />
+              <vrSalMat />
+            </basesCp>
+          </basesRemun>
+          <basesAvNPort>
+            <vrBcCp00 />
+            <vrBcCp15 />
+            <vrBcCp20 />
+            <vrBcCp25 />
+            <vrBcCp13 />
+            <vrBcFgts />
+            <vrDescCP />
+          </basesAvNPort>
+          <infoSubstPatrOpPort>
+            <cnpjOpPortuario />
+          </infoSubstPatrOpPort>
+        </ideLotacao>
+        <basesAquis>
+          <indAquis /> 
+          <vlrAquis /> 
+          <vrCPDescPR /> 
+          <vrCPNRet /> 
+          <vrRatNRet /> 
+          <vrSenarNRet /> 
+          <vrCPCalcPR /> 
+          <vrRatDescPR/> 
+          <vrRatCalcPR /> 
+          <vrSenarDesc /> 
+          <vrSenarCalc /> 
+        </basesAquis>
+        <basesComerc>
+          <indComerc />
+          <vrBcComPR />
+          <vrCPSusp />
+          <vrRatSusp />
+          <vrSenarSusp />
+        </basesComerc>
+        <infoCREstab>
+          <tpCR />
+          <vrCR />
+          <vrSuspCR />
+        </infoCREstab>
+      </ideEstab>
+      <infoCRContrib>
+        <tpCR />
+        <vrCR />
+        <vrCRSusp />
+      </infoCRContrib>
+    </infoCS>
+  </evtCS>
+</eSocial>

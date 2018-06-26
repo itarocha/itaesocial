@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtDeslig/v02_04_02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtDeslig/v02_04_02 ../xsd/evtDeslig.xsd ">
+  <evtDeslig Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab />
+      <nisTrab />
+      <matricula />
+    </ideVinculo>
+    <infoDeslig>
+      <mtvDeslig />
+      <dtDeslig />
+      <indPagtoAPI />
+      <dtProjFimAPI />
+      <pensAlim />
+      <percAliment />
+      <vrAlim />
+      <nrCertObito />
+      <nrProcTrab />
+      <indCumprParc />
+      <qtdDiasInterm />
+      <observacoes>
+        <observacao />
+      </observacoes>
+      <sucessaoVinc>
+        <cnpjSucessora />
+      </sucessaoVinc>
+      <transfTit>
+        <cpfSubstituto />
+        <dtNascto />
+      </transfTit>
+      <verbasResc>
+        <dmDev>
+          <ideDmDev />  
+          <infoPerApur>
+            <ideEstabLot>
+              <tpInsc />
+              <nrInsc />
+              <codLotacao />
+              <detVerbas>
+                <codRubr />
+                <ideTabRubr />
+                <qtdRubr />
+                <fatorRubr />
+                <vrUnit />
+                <vrRubr />
+              </detVerbas>
+              <infoSaudeColet>
+                <detOper>
+                  <cnpjOper />
+                  <regANS />
+                  <vrPgTit />
+                  <detPlano>
+                    <tpDep />
+                    <cpfDep />
+                    <nmDep />
+                    <dtNascto />
+                    <vlrPgDep />
+                  </detPlano>
+                </detOper>
+              </infoSaudeColet>
+              <infoAgNocivo>
+                <grauExp />
+              </infoAgNocivo>
+              <infoSimples>
+                <indSimples />
+              </infoSimples>
+            </ideEstabLot>
+          </infoPerApur>
+          <infoPerAnt>
+            <ideADC>
+              <dtAcConv />
+              <tpAcConv />
+              <compAcConv />
+              <dtEfAcConv />
+              <dsc />
+              <idePeriodo>
+                <perRef />
+                <ideEstabLot>
+                  <tpInsc />
+                  <nrInsc />
+                  <codLotacao />
+                  <detVerbas>
+                    <codRubr />  
+                    <ideTabRubr />  
+                    <qtdRubr />  
+                    <fatorRubr />  
+                    <vrUnit />  
+                    <vrRubr />  
+                  </detVerbas>
+                  <infoAgNocivo>
+                    <grauExp />
+                  </infoAgNocivo>
+                  <infoSimples>
+                    <indSimples />  
+                  </infoSimples>
+                </ideEstabLot>
+              </idePeriodo>
+            </ideADC>
+          </infoPerAnt>
+          <infoTrabInterm>
+            <codConv />
+          </infoTrabInterm>
+        </dmDev>
+        <procJudTrab>
+          <tpTrib />
+          <nrProcJud />
+          <codSusp />
+        </procJudTrab>
+        <infoMV>
+          <indMV />
+          <remunOutrEmpr>
+            <tpInsc />
+            <nrInsc />
+            <codCateg />
+            <vlrRemunOE />
+          </remunOutrEmpr>
+        </infoMV>
+        <procCS>
+          <nrProcJud />
+        </procCS>
+      </verbasResc>
+      <quarentena>
+        <dtFimQuar />
+      </quarentena>
+    </infoDeslig>
+    <consigFGTS>
+      <insConsig />
+      <nrContr />
+    </consigFGTS>
+  </evtDeslig>
+</eSocial>

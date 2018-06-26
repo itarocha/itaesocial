@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtTSVInicio/v02_04_02" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esocial.gov.br/schema/evt/evtTSVInicio/v02_04_02 ../xsd/evtTSVInicio.xsd ">
+  <evtTSVInicio Id="idvalue0">
+    <ideEvento>
+      <indRetif />
+      <nrRecibo />
+      <tpAmb />
+      <procEmi />
+      <verProc />
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc />
+      <nrInsc />
+    </ideEmpregador>
+    <trabalhador>
+      <cpfTrab />
+      <nisTrab />
+      <nmTrab />
+      <sexo />
+      <racaCor />
+      <estCiv />
+      <grauInstr />
+      <nmSoc />
+      <nascimento>
+        <dtNascto />
+        <codMunic />
+        <paisNascto />
+        <paisNac />
+        <nmMae />
+        <nmPai />
+      </nascimento>
+      <documentos>
+        <CTPS>
+          <nrCtps />
+          <serieCtps />
+          <ufCtps />
+        </CTPS>
+        <RIC>
+          <nrRic />
+          <orgaoEmissor />
+          <dtExped />
+        </RIC>
+        <RG>
+          <nrRg />
+          <orgaoEmissor />
+          <dtExped />
+        </RG>
+        <RNE>
+          <nrRne />
+          <orgaoEmissor />
+          <dtExped />
+        </RNE>
+        <OC>
+          <nrOc />
+          <orgaoEmissor />
+          <dtExped />
+          <dtValid />
+        </OC>
+        <CNH>
+          <nrRegCnh />
+          <dtExped />
+          <ufCnh />
+          <dtValid />
+          <dtPriHab />
+          <categoriaCnh />
+        </CNH>
+      </documentos>
+      <endereco>
+        <brasil>
+          <tpLograd />
+          <dscLograd />
+          <nrLograd />
+          <complemento />
+          <bairro />
+          <cep />
+          <codMunic />
+          <uf />
+        </brasil>
+        <exterior>
+          <paisResid />
+          <dscLograd />
+          <nrLograd />
+          <complemento />
+          <bairro />
+          <nmCid />
+          <codPostal />
+        </exterior>
+      </endereco>
+      <trabEstrangeiro>
+        <dtChegada />
+        <classTrabEstrang />
+        <casadoBr />
+        <filhosBr />
+      </trabEstrangeiro>
+      <infoDeficiencia>
+        <defFisica />
+        <defVisual />
+        <defAuditiva />
+        <defMental />
+        <defIntelectual />
+        <reabReadap />
+        <observacao />
+      </infoDeficiencia>
+      <dependente>
+        <tpDep />
+        <nmDep />
+        <dtNascto />
+        <cpfDep />
+        <depIRRF />
+        <depSF />
+        <incTrab />
+      </dependente>
+      <contato>
+        <fonePrinc />
+        <foneAlternat />
+        <emailPrinc />
+        <emailAlternat />
+      </contato>
+    </trabalhador>
+    <infoTSVInicio>
+      <cadIni />
+      <codCateg />
+      <dtInicio />
+      <natAtividade />
+      <infoComplementares>
+        <cargoFuncao>
+          <codCargo />
+          <codFuncao />
+        </cargoFuncao>
+        <remuneracao>
+          <vrSalFx />
+          <undSalFixo />
+          <dscSalVar />
+        </remuneracao>
+        <fgts>
+          <opcFGTS />
+          <dtOpcFGTS />
+        </fgts>
+        <infoDirigenteSindical>
+          <categOrig />
+          <cnpjOrigem />
+          <dtAdmOrig />
+          <matricOrig />
+        </infoDirigenteSindical>
+        <infoTrabCedido>
+          <categOrig />
+          <cnpjCednt />
+          <matricCed />
+          <dtAdmCed />
+          <tpRegTrab />
+          <tpRegPrev />
+          <infOnus />
+        </infoTrabCedido>
+        <infoEstagiario>
+          <natEstagio />
+          <nivEstagio />
+          <areaAtuacao />
+          <nrApol />
+          <vlrBolsa />
+          <dtPrevTerm />
+          <instEnsino>
+            <cnpjInstEnsino />
+            <nmRazao />
+            <dscLograd />
+            <nrLograd />
+            <bairro />
+            <cep />
+            <codMunic />
+            <uf />
+          </instEnsino>
+          <ageIntegracao>
+            <cnpjAgntInteg />
+            <nmRazao />
+            <dscLograd />
+            <nrLograd />
+            <bairro />
+            <cep />
+            <codMunic />
+            <uf />
+          </ageIntegracao>
+          <supervisorEstagio>
+            <cpfSupervisor />
+            <nmSuperv />
+          </supervisorEstagio>
+        </infoEstagiario>
+      </infoComplementares>
+      <afastamento>
+        <dtIniAfast />
+        <codMotAfast />
+      </afastamento>
+      <termino>
+        <dtTerm />
+      </termino>
+    </infoTSVInicio>
+  </evtTSVInicio>
+</eSocial>
